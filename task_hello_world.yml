@@ -10,7 +10,5 @@ inputs:
 
 run:
   path: ls
-
-run:
   path: cat
   args: [resource-git-formation/README.md]
