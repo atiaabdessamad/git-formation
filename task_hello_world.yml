@@ -9,5 +9,6 @@ inputs:
 - name: resource-git-formation
 
 run:
-  path: mvn package
+  path: mvn
+  args: [package]
   dir: resource-git-formation
