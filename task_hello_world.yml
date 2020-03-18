@@ -5,6 +5,9 @@ image_resource:
   type: docker-image
   source: {repository: busybox}
 
+inputs:
+- name: resource-git-formation
+
 run:
   path: cat
   args: [README.md]
