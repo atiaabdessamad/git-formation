@@ -9,5 +9,8 @@ inputs:
 - name: resource-git-formation
 
 run:
+  path: ls
+
+run:
   path: cat
-  args: [README.md]
+  args: [resource-git-formation/README.md]
