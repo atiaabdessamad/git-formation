@@ -8,6 +8,8 @@ image_resource:
 inputs:
 - name: resource-git-formation
 
+outputs:
+- name: target
 run:
   path: mvn
   args: [package]
