@@ -3,7 +3,7 @@ platform: linux
 
 image_resource:
   type: docker-image
-  source: { repository: starkandwayne/concourse }
+  source: {repository: maven, tag: 3-jdk-8-alpine}
 
 inputs:
 - name: resource-git-formation
