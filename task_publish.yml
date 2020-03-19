@@ -7,5 +7,6 @@ image_resource:
 
 inputs:
 - name: resource-git-formation
+
 run:
-  path: ./resource-git-formation/bump-timestamp-file.sh
+  path: ./resource-git-formation/test.sh
