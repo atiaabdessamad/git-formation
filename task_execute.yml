@@ -1,0 +1,13 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source: {repository: openjdk, tag:7}
+
+inputs:
+- name: target
+
+run:
+  path: ls
+  dir: target

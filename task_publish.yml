@@ -1,0 +1,12 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source: {repository: openjdk, tag:7}
+
+inputs:
+- name: target
+- name: resource-git-formation
+run:
+  path: ./resource-git-formation/bump-timestamp-file.sh
