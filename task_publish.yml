@@ -9,4 +9,4 @@ inputs:
 - name: resource-git-formation
 
 run:
-  path: resource-git-formation/test.sh
+  path: ./resource-git-formation/test.sh
