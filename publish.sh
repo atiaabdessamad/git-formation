@@ -4,7 +4,7 @@ set -e # fail fast
 set -x # print commands
 ls
 env
-git clone react updated
+git clone resource-gist updated
 
 cd updated
 date >> bumpme
