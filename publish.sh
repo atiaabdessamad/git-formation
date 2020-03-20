@@ -2,9 +2,9 @@
 
 set -e # fail fast
 set -x # print commands
-
-git clone resource-git-formation updated
 ls
+git clone react updated
+
 cd updated
 date >> bumpme
 
